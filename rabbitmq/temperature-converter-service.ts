@@ -1,5 +1,5 @@
 import { connect } from './rabbitmq';
-import { fahrenheitToCelsius, celsiusToFahrenheit } from './temperature-converter';
+import { fahrenheitToCelsius, celsiusToFahrenheit } from '../utils/temperature-converter';
 
 const start = async () => {
     const connection = await connect();

@@ -2,7 +2,6 @@
   "name": "temp-converter",
   "version": "1.0.0",
   "description": "Temperature converter microservice using RabbitMQ",
-  "main": "index.js",
   "repository": "git@github.com:JamesCostello-dev/temp-converter.git",
   "author": "James <jcotab@gmail.com>",
   "license": "MIT",
@@ -19,7 +18,7 @@
     "typescript": "^4.9.5"
   },
   "scripts": {
-    "start": "node build/server.js",
+    "start": "node build/server/server.js",
     "lint": "concurrently \"eslint . --ext .ts\" \"tsc\""
   },
   "devDependencies": {

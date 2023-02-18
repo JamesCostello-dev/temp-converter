@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { connect } from './rabbitmq';
+import { connect } from '../rabbitmq/rabbitmq';
 
 const app = express();
 const port = 3000;
